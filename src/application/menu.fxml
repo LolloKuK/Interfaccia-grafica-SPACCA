@@ -20,7 +20,7 @@
             <BoxBlur />
          </effect>
       </ImageView>
-      <ImageView fitHeight="353.0" fitWidth="514.0" layoutX="218.0" layoutY="190.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="81.0" AnchorPane.leftAnchor="218.0" AnchorPane.rightAnchor="208.5" AnchorPane.topAnchor="190.0">
+      <ImageView fitHeight="400.0" fitWidth="580.0" layoutX="190.0" layoutY="168.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="63.20654296875" AnchorPane.leftAnchor="190.0" AnchorPane.rightAnchor="181.54547119140625" AnchorPane.topAnchor="168.0">
          <image>
             <Image url="@Pergamena.png" />
          </image>
@@ -28,7 +28,7 @@
             <DropShadow spread="0.3" />
          </effect>
       </ImageView>
-      <ImageView fitHeight="99.0" fitWidth="503.0" layoutX="233.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="494.0" AnchorPane.leftAnchor="233.0" AnchorPane.rightAnchor="207.84310913085938" AnchorPane.topAnchor="36.0">
+      <ImageView fitHeight="88.0" fitWidth="529.0" layoutX="209.0" layoutY="46.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="500.0" AnchorPane.leftAnchor="209.0" AnchorPane.rightAnchor="211.0" AnchorPane.topAnchor="46.0">
          <image>
             <Image url="@Titolo.png" />
          </image>
@@ -39,7 +39,7 @@
             <DropShadow spread="0.3" />
          </effect>
       </ImageView>
-      <Button fx:id="newgame_button" layoutX="363.0" layoutY="250.0" mnemonicParsing="false" onAction="#openGameSetup" prefHeight="46.0" prefWidth="236.0" textAlignment="CENTER" AnchorPane.bottomAnchor="328.0" AnchorPane.leftAnchor="363.0" AnchorPane.rightAnchor="337.0" AnchorPane.topAnchor="250.0">
+      <Button fx:id="newgame_button" layoutX="373.0" layoutY="260.0" mnemonicParsing="false" onAction="#openGameSetup" prefHeight="46.0" prefWidth="236.0" textAlignment="CENTER">
          <opaqueInsets>
             <Insets />
          </opaqueInsets>
@@ -57,7 +57,7 @@
             </ImageView>
          </graphic>
       </Button>
-      <Button fx:id="newtournament_button" layoutX="363.0" layoutY="313.0" mnemonicParsing="false" onAction="#openTournementSetup" prefHeight="46.0" prefWidth="236.0" textAlignment="CENTER" AnchorPane.bottomAnchor="265.0" AnchorPane.leftAnchor="363.0" AnchorPane.rightAnchor="337.0" AnchorPane.topAnchor="313.0">
+      <Button fx:id="newtournament_button" layoutX="373.0" layoutY="323.0" mnemonicParsing="false" onAction="#openTournementSetup" prefHeight="46.0" prefWidth="236.0" textAlignment="CENTER">
          <opaqueInsets>
             <Insets />
          </opaqueInsets>
@@ -75,7 +75,7 @@
             </ImageView>
          </graphic>
       </Button>
-      <Button fx:id="loadgame_button" alignment="CENTER" contentDisplay="CENTER" layoutX="378.0" layoutY="377.0" mnemonicParsing="false" onAction="#openLoadGame" prefHeight="46.0" prefWidth="209.0" textAlignment="CENTER" AnchorPane.bottomAnchor="201.0" AnchorPane.leftAnchor="378.0" AnchorPane.rightAnchor="349.0" AnchorPane.topAnchor="377.0">
+      <Button fx:id="loadgame_button" alignment="CENTER" contentDisplay="CENTER" layoutX="388.0" layoutY="387.0" mnemonicParsing="false" onAction="#openLoadGame" prefHeight="46.0" prefWidth="209.0" textAlignment="CENTER">
          <opaqueInsets>
             <Insets />
          </opaqueInsets>
@@ -93,7 +93,7 @@
             <InnerShadow choke="0.12" height="26.9" radius="14.225" width="32.0" />
          </effect>
       </Button>
-      <Button fx:id="exit_button" layoutX="430.0" layoutY="466.0" mnemonicParsing="false" onAction="#closeApp" prefHeight="38.0" prefWidth="102.0" textAlignment="CENTER" AnchorPane.bottomAnchor="120.0" AnchorPane.leftAnchor="430.0" AnchorPane.rightAnchor="404.0" AnchorPane.topAnchor="466.0">
+      <Button fx:id="exit_button" layoutX="440.0" layoutY="476.0" mnemonicParsing="false" onAction="#closeApp" prefHeight="38.0" prefWidth="102.0" textAlignment="CENTER">
          <opaqueInsets>
             <Insets />
          </opaqueInsets>

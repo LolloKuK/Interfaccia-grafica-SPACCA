@@ -40,7 +40,7 @@ public class SignUp_Conroller {
     }
 
     public void addCredentials(String username, String password) {
-        String pathFile = "/Users/lorenzocuoco/Desktop/Cartelle/Programmazione/IntelliJ-workspace/Spacca/src/saved_data/credenziali.txt";
+        String pathFile = "/Users/lorenzocuoco/Desktop/Cartelle/IntelliJ-workspace/Spacca/src/saved_data/credenziali.txt";
         //da cambiare nel caso si usi su un'altro pc
 
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(pathFile, true))) {
@@ -67,7 +67,7 @@ public class SignUp_Conroller {
     }
 
     public boolean credentialsVerify(String username, String password) {
-        String pathFile = "/Users/lorenzocuoco/Desktop/Cartelle/Programmazione/IntelliJ-workspace/Spacca/src/saved_data/credenziali.txt";
+        String pathFile = "/Users/lorenzocuoco/Desktop/Cartelle/IntelliJ-workspace/Spacca/src/saved_data/credenziali.txt";
         //da cambiare nel caso si usi su un'altro pc
 
         try (BufferedReader reader = new BufferedReader(new FileReader(pathFile))) {
