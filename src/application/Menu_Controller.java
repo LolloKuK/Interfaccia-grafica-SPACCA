@@ -64,4 +64,20 @@ public class Menu_Controller {
     public void closeApp(ActionEvent event) {
         System.exit(0);
     }
+
+    public void openSettings(ActionEvent event) throws IOException {
+        root = FXMLLoader.load(getClass().getResource("othersettings.fxml"));
+        stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+        scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
+    }
+
+    public void openPlayerSettings(ActionEvent event) throws IOException {
+        root = FXMLLoader.load(getClass().getResource("playersettings.fxml"));
+        stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+        scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
+    }
 }

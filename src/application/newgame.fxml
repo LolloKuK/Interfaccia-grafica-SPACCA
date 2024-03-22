@@ -4,6 +4,7 @@
 <?import javafx.scene.Cursor?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ChoiceBox?>
 <?import javafx.scene.effect.BoxBlur?>
 <?import javafx.scene.effect.DropShadow?>
 <?import javafx.scene.effect.InnerShadow?>
@@ -14,7 +15,7 @@
 
 <AnchorPane prefHeight="508.0" prefWidth="910.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.NewGame_Controller">
    <children>
-      <ImageView fitHeight="624.0" fitWidth="936.0" layoutX="1.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="-1.0" AnchorPane.leftAnchor="1.0" AnchorPane.rightAnchor="-1.0" AnchorPane.topAnchor="1.0">
+      <ImageView fitHeight="646.0" fitWidth="958.0" layoutX="-3.0" layoutY="-3.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="-2.95001220703125" AnchorPane.leftAnchor="-3.0" AnchorPane.rightAnchor="-3.0" AnchorPane.topAnchor="-3.0">
          <image>
             <Image url="@Sfondo Menu.jpg" />
          </image>
@@ -22,7 +23,7 @@
             <BoxBlur />
          </effect>
       </ImageView>
-      <ImageView fitHeight="415.0" fitWidth="645.0" layoutX="160.0" layoutY="162.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="46.5015869140625" AnchorPane.leftAnchor="160.0" AnchorPane.rightAnchor="177.0" AnchorPane.topAnchor="162.0">
+      <ImageView fitHeight="400.0" fitWidth="580.0" layoutX="183.0" layoutY="168.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="64.20654296875" AnchorPane.leftAnchor="183.0" AnchorPane.rightAnchor="191.54547119140625" AnchorPane.topAnchor="168.0">
          <image>
             <Image url="@Pergamena.png" />
          </image>
@@ -30,7 +31,7 @@
             <DropShadow spread="0.3" />
          </effect>
       </ImageView>
-      <ImageView fitHeight="95.0" fitWidth="497.0" layoutX="231.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="490.52745056152344" AnchorPane.leftAnchor="231.0" AnchorPane.rightAnchor="208.23626708984375" AnchorPane.topAnchor="43.0">
+      <ImageView fitHeight="88.0" fitWidth="529.0" layoutX="210.0" layoutY="46.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="501.0" AnchorPane.leftAnchor="210.0" AnchorPane.rightAnchor="213.0" AnchorPane.topAnchor="46.0">
          <image>
             <Image url="@Titolo.png" />
          </image>
@@ -41,7 +42,7 @@
             <DropShadow spread="0.3" />
          </effect>
       </ImageView>
-      <Button fx:id="goback_button" layoutX="420.0" layoutY="512.0" mnemonicParsing="false" onAction="#goBack" prefHeight="32.0" prefWidth="102.0" textAlignment="CENTER" AnchorPane.bottomAnchor="80.0" AnchorPane.leftAnchor="420.0" AnchorPane.rightAnchor="418.0" AnchorPane.topAnchor="512.0">
+      <Button fx:id="goback_button" layoutX="420.0" layoutY="501.0" mnemonicParsing="false" onAction="#goBack" prefHeight="32.0" prefWidth="102.0" textAlignment="CENTER" AnchorPane.bottomAnchor="91.0" AnchorPane.leftAnchor="420.0" AnchorPane.rightAnchor="418.0" AnchorPane.topAnchor="501.0">
          <opaqueInsets>
             <Insets />
          </opaqueInsets>
@@ -59,33 +60,47 @@
             </ImageView>
          </graphic>
       </Button>
-      <ImageView fitHeight="44.0" fitWidth="362.0" layoutX="290.0" layoutY="219.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="44.0" fitWidth="362.0" layoutX="290.0" layoutY="217.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../../../Testo%20giocatori.png" />
+            <Image url="@../../../../../Testo%20giocatori.png" />
          </image>
       </ImageView>
-      <CheckBox contentDisplay="RIGHT" graphicTextGap="6.0" layoutX="247.0" layoutY="270.0" mnemonicParsing="false" text="1">
-         <font>
-            <Font name="Arial Black" size="16.0" />
-         </font>
-      </CheckBox>
-      <CheckBox graphicTextGap="6.0" layoutX="492.0" layoutY="270.0" mnemonicParsing="false" text="2">
+      <CheckBox contentDisplay="RIGHT" graphicTextGap="6.0" layoutX="260.0" layoutY="262.0" mnemonicParsing="false" text="1">
          <font>
             <Font name="Arial Black" size="16.0" />
          </font>
          <cursor>
-            <Cursor fx:constant="OPEN_HAND" />
+            <Cursor fx:constant="HAND" />
          </cursor>
       </CheckBox>
-      <CheckBox contentDisplay="RIGHT" graphicTextGap="6.0" layoutX="244.0" layoutY="398.0" mnemonicParsing="false" text="3">
+      <CheckBox graphicTextGap="6.0" layoutX="492.0" layoutY="262.0" mnemonicParsing="false" text="2">
          <font>
             <Font name="Arial Black" size="16.0" />
          </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
       </CheckBox>
-      <CheckBox contentDisplay="RIGHT" graphicTextGap="6.0" layoutX="489.0" layoutY="399.0" mnemonicParsing="false" text="4">
+      <CheckBox contentDisplay="RIGHT" graphicTextGap="6.0" layoutX="260.0" layoutY="380.0" mnemonicParsing="false" text="3">
          <font>
             <Font name="Arial Black" size="16.0" />
          </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
       </CheckBox>
+      <CheckBox contentDisplay="RIGHT" graphicTextGap="6.0" layoutX="489.0" layoutY="381.0" mnemonicParsing="false" text="4">
+         <font>
+            <Font name="Arial Black" size="16.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </CheckBox>
+      <ChoiceBox layoutX="312.0" layoutY="262.0" prefWidth="150.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ChoiceBox>
    </children>
 </AnchorPane>
